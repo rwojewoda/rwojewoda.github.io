@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rwojewoda | Games & Apps</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --accent-hover: #1f6feb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #8b949e;
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        .game-card {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        h2 {
+            color: #fff;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        p {
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 28px;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #484f58;
+        }
+
+        footer a {
+            color: #8b949e;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>rwojewoda</h1>
+        <p class="subtitle">Indie Game Developer</p>
+
+        <div class="game-card">
+            <h2>Space Ant Miners</h2>
+            <p>Przejmij dowodzenie nad zaawansowaną kolonią futurystycznych mrówek! W tej wciągającej grze typu idle mining Twoje cybernetycznie ulepszone mrówki mają jedną misję: odkryć najgłębsze sekrety planety.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.Carlovitz.SpaceAntMiners" target="_blank" class="btn">Pobierz z Google Play</a>
+        </div>
+
+        <footer>
+            <p>© 2026 rwojewoda</p>
+            <a href="https://rwojewoda.github.io/space-app/">Polityka Prywatności</a>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -161,3 +161,4 @@ voisetech.com, 1066, RESELLER
 xandr.com, 17779, RESELLER
 xandr.com, 13799, RESELLER
 xandr.com, 15840, RESELLER
+google.com, pub-6384478589602499, DIRECT, f08c47fec0942fa0
